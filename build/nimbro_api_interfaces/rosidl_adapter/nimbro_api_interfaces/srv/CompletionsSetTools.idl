@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/CompletionsSetTools.srv
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module srv {
+    struct CompletionsSetTools_Request {
+      @verbatim (language="comment", text=
+        " Specifies the target completions node when addressing the completions_multiplexer")
+      string completions_id;
+
+      @verbatim (language="comment", text=
+        " The tools to be defined; See documentation for format requirements")
+      sequence<string> tools;
+    };
+    struct CompletionsSetTools_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_generator_cpp/nimbro_api_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp

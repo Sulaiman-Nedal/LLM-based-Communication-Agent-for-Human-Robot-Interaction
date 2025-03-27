@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/GetEmbeddings.srv
+// generated code does not contain a copyright notice
+
+#include "nimbro_api_interfaces/msg/Embedding.idl"
+
+module nimbro_api_interfaces {
+  module srv {
+    struct GetEmbeddings_Request {
+      @verbatim (language="comment", text=
+        " A list of texts for which embeddings are to be retrieved")
+      sequence<string> texts;
+    };
+    struct GetEmbeddings_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+
+      @verbatim (language="comment", text=
+        " The list of retrieved embeddings")
+      sequence<nimbro_api_interfaces::msg::Embedding> embeddings;
+    };
+  };
+};

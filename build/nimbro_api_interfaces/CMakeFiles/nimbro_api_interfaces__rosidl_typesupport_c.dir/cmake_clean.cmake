@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/msg/api_usage__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/msg/embedding__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_context__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_settings__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_status__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_tools__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_manage__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_prompt__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_remove_context__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_set_tools__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_stop__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_embeddings__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_image__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_speech__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_usage__type_support.cpp.o"
+  "CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/trigger_feedback__type_support.cpp.o"
+  "libnimbro_api_interfaces__rosidl_typesupport_c.pdb"
+  "libnimbro_api_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/nimbro_api_interfaces/msg/api_usage__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/msg/embedding__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_context__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_settings__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_status__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_tools__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_manage__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_prompt__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_remove_context__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_set_tools__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_stop__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/get_embeddings__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/get_image__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/get_speech__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/get_usage__type_support.cpp"
+  "rosidl_typesupport_c/nimbro_api_interfaces/srv/trigger_feedback__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

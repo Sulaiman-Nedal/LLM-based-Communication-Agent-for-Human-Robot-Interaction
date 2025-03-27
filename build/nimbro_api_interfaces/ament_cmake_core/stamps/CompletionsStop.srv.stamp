@@ -1,0 +1,4 @@
+string completions_id # Specifies the target completions node when addressing the completions_multiplexer
+---
+bool   success        # Indicates the success or failure of the service call
+string message        # A natural language summary of the service call outcome

@@ -1,0 +1,4 @@
+source;share/nimbro_api_interfaces/local_setup.bash
+source;share/nimbro_api_interfaces/local_setup.dsv
+source;share/nimbro_api_interfaces/local_setup.sh
+source;share/nimbro_api_interfaces/local_setup.zsh

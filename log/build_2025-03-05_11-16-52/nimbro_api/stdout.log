@@ -1,0 +1,40 @@
+running develop
+running egg_info
+creating nimbro_api.egg-info
+writing nimbro_api.egg-info/PKG-INFO
+writing dependency_links to nimbro_api.egg-info/dependency_links.txt
+writing entry points to nimbro_api.egg-info/entry_points.txt
+writing requirements to nimbro_api.egg-info/requires.txt
+writing top-level names to nimbro_api.egg-info/top_level.txt
+writing manifest file 'nimbro_api.egg-info/SOURCES.txt'
+reading manifest file 'nimbro_api.egg-info/SOURCES.txt'
+writing manifest file 'nimbro_api.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages/site.py
+Creating /home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages/nimbro-api.egg-link (link to .)
+Installing completions script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing completions_multiplexer script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing embeddings script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing images script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing speech script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing toy_example_1 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing toy_example_2 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing toy_example_3 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing toy_example_4 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+Installing usage_monitor script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+
+Installed /home/user/aloradis0/workspace/build/nimbro_api
+running symlink_data
+creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index
+creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index
+creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index/packages
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/resource/nimbro_api -> /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index/packages
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/package.xml -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api
+creating /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/images_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/gpt_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/embeddings_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/vllm_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/speech_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/mistral_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch

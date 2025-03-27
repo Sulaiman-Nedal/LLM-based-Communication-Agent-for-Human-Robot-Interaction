@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/GetImage.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module nimbro_api_interfaces {
+  module srv {
+    struct GetImage_Request {
+      @verbatim (language="comment", text=
+        " The prompt for which an image is to be generated")
+      string prompt;
+
+      @verbatim (language="comment", text=
+        " The name of the model used")
+      string model;
+
+      @verbatim (language="comment", text=
+        " Quality setting supported by the model; Ignored if not available; Leave blank to use default")
+      string quality;
+
+      @verbatim (language="comment", text=
+        " Style setting supported by the model; Ignored if not available; Leave blank to use default")
+      string style;
+
+      @verbatim (language="comment", text=
+        " Size setting supported by the model; Leave blank to use default")
+      string size;
+    };
+    struct GetImage_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+
+      @verbatim (language="comment", text=
+        " The generated image")
+      sensor_msgs::msg::Image image;
+
+      @verbatim (language="comment", text=
+        " The path to the generated image file")
+      string path;
+    };
+  };
+};

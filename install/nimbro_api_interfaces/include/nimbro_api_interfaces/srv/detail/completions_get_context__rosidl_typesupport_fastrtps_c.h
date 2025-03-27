@@ -1,0 +1,1 @@
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_fastrtps_c.h

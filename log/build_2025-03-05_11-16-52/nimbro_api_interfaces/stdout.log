@@ -1,0 +1,568 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/aloradis0/workspace/build/nimbro_api_interfaces
+[35m[1mScanning dependencies of target nimbro_api_interfaces__cpp[0m
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target nimbro_api_interfaces__cpp
+[  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_generator_c[0m
+[  6%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/msg/detail/embedding__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/msg/detail/api_usage__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_tools__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_prompt__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_stop__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_remove_context__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_set_tools__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_context__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_manage__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_status__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_settings__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/trigger_feedback__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_usage__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_image__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_speech__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_embeddings__functions.c.o[0m
+[ 14%] [32m[1mLinking C shared library libnimbro_api_interfaces__rosidl_generator_c.so[0m
+[ 14%] Built target nimbro_api_interfaces__rosidl_generator_c
+[ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_cpp[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_tools__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_prompt__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_stop__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/msg/embedding__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/msg/api_usage__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_set_tools__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_remove_context__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_context__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_manage__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_status__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_settings__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_embeddings__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_image__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_speech__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/trigger_feedback__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_usage__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/msg/detail/api_usage__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_c[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/msg/api_usage__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/msg/embedding__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_prompt__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_stop__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_tools__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_set_tools__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_context__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_remove_context__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_manage__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_settings__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_embeddings__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_image__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_speech__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/trigger_feedback__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_usage__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/msg/detail/embedding__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.cpp.o[0m
+[ 39%] [32m[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_cpp.so[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_stop__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_c.so[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/msg/detail/dds_fastrtps/api_usage__type_support.cpp.o[0m
+[ 45%] Built target nimbro_api_interfaces__rosidl_typesupport_cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_manage__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.cpp.o[0m
+[ 46%] Built target nimbro_api_interfaces__rosidl_typesupport_c
+[ 47%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_introspection_c[0m
+[ 48%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/msg/detail/api_usage__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/msg/detail/embedding__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_image__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_speech__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_usage__type_support.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_stop__type_support.c.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/msg/detail/dds_fastrtps/embedding__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_prompt__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_manage__type_support.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_stop__type_support.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_image__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_speech__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_usage__type_support.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_tools__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_set_tools__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_context__type_support.cpp.o[0m
+[ 65%] [32m[1mLinking C shared library libnimbro_api_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 65%] Built target nimbro_api_interfaces__rosidl_typesupport_introspection_c
+[ 65%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_remove_context__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_manage__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_status__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_settings__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_embeddings__type_support.cpp.o[0m
+[ 69%] [32m[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_image__type_support.cpp.o[0m
+[ 70%] Built target nimbro_api_interfaces__rosidl_typesupport_introspection_cpp
+[ 70%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_speech__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/trigger_feedback__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_usage__type_support.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 72%] Built target nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/msg/detail/api_usage__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_prompt__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/msg/detail/embedding__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_stop__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_context__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_manage__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_status__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_embeddings__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_speech__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_image__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_usage__type_support_c.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 84%] Built target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target nimbro_api_interfaces[0m
+[ 84%] Built target nimbro_api_interfaces
+[35m[1mScanning dependencies of target nimbro_api_interfaces__py[0m
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target nimbro_api_interfaces__py
+[35m[1mScanning dependencies of target nimbro_api_interfaces__python[0m
+[ 87%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_prompt_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_stop_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_tools_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/msg/_api_usage_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/msg/_embedding_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_set_tools_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_context_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_remove_context_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_manage_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_status_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_settings_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_embeddings_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_image_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_speech_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_trigger_feedback_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_usage_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/nimbro_api_interfaces/libnimbro_api_interfaces__python.so[0m
+[ 96%] Built target nimbro_api_interfaces__python
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nimbro_api_interfaces/_nimbro_api_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nimbro_api_interfaces/_nimbro_api_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nimbro_api_interfaces/_nimbro_api_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target nimbro_api_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/rosidl_interfaces/nimbro_api_interfaces
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/api_usage.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/embedding.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_context.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_settings.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_status.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_tools.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_manage.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_prompt.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_remove_context.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_set_tools.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_stop.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__functions.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__struct.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_embeddings.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_image.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_speech.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_usage.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/trigger_feedback.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/library_path.sh
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/library_path.dsv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/api_usage.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/embedding.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_context.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_settings.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_status.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_tools.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_manage.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_prompt.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_remove_context.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_set_tools.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_stop.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__builder.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__struct.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__traits.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_embeddings.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_image.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_speech.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_usage.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/trigger_feedback.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/__init__.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/msg/__init__.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/msg/_api_usage.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/msg/_embedding.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/__init__.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_context.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_settings.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_status.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_tools.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_manage.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_prompt.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_remove_context.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_set_tools.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_stop.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_embeddings.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_image.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_speech.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_usage.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_trigger_feedback.py
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__python.so
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/ApiUsage.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/Embedding.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage.idl
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/ApiUsage.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/Embedding.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage.srv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage_Request.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage_Response.msg
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/package_run_dependencies/nimbro_api_interfaces
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/parent_prefix_path/nimbro_api_interfaces
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/path.sh
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/path.dsv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.bash
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.sh
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.zsh
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.dsv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/package.dsv
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/packages/nimbro_api_interfaces
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfacesConfig.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfacesConfig-version.cmake
+-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/package.xml
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/__init__.py'...
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cppExport-noconfig.cmake

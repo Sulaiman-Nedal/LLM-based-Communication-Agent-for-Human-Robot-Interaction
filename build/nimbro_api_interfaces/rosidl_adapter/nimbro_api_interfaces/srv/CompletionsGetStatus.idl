@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/CompletionsGetStatus.srv
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module srv {
+    struct CompletionsGetStatus_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CompletionsGetStatus_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+
+      @verbatim (language="comment", text=
+        " A list of the IDs of all multiplexed completions nodes")
+      sequence<string> completions_id;
+
+      @verbatim (language="comment", text=
+        " A corresponding list signalling if a completions node is currently acquired")
+      sequence<boolean> acquired;
+    };
+  };
+};

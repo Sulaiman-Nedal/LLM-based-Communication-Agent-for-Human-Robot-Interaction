@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: nimbro-api
+Version: 0.0.0
+Summary: This package exposes various APIs (including the OpenAI and Mistral chat completions API) to ROS2.
+Home-page: UNKNOWN
+Maintainer: Bastian Pätzold
+Maintainer-email: paetzold@ais.uni-bonn.de
+License: BSD-3-Clause
+Description: UNKNOWN
+Platform: UNKNOWN

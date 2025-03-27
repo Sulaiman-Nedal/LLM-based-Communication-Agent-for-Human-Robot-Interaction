@@ -1,0 +1,6 @@
+string api_type
+string api_flavor
+string model_name
+uint64 input_tokens_uncached
+uint64 input_tokens_cached
+uint64 output_tokens

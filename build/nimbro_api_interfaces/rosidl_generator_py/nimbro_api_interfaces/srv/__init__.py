@@ -1,0 +1,14 @@
+from nimbro_api_interfaces.srv._completions_get_context import CompletionsGetContext  # noqa: F401
+from nimbro_api_interfaces.srv._completions_get_settings import CompletionsGetSettings  # noqa: F401
+from nimbro_api_interfaces.srv._completions_get_status import CompletionsGetStatus  # noqa: F401
+from nimbro_api_interfaces.srv._completions_get_tools import CompletionsGetTools  # noqa: F401
+from nimbro_api_interfaces.srv._completions_manage import CompletionsManage  # noqa: F401
+from nimbro_api_interfaces.srv._completions_prompt import CompletionsPrompt  # noqa: F401
+from nimbro_api_interfaces.srv._completions_remove_context import CompletionsRemoveContext  # noqa: F401
+from nimbro_api_interfaces.srv._completions_set_tools import CompletionsSetTools  # noqa: F401
+from nimbro_api_interfaces.srv._completions_stop import CompletionsStop  # noqa: F401
+from nimbro_api_interfaces.srv._get_embeddings import GetEmbeddings  # noqa: F401
+from nimbro_api_interfaces.srv._get_image import GetImage  # noqa: F401
+from nimbro_api_interfaces.srv._get_speech import GetSpeech  # noqa: F401
+from nimbro_api_interfaces.srv._get_usage import GetUsage  # noqa: F401
+from nimbro_api_interfaces.srv._trigger_feedback import TriggerFeedback  # noqa: F401

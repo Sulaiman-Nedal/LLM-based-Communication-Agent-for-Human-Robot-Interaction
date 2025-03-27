@@ -1,0 +1,1 @@
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_generator_c/nimbro_api_interfaces/msg/detail/embedding__struct.h

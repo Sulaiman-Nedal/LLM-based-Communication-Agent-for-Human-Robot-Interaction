@@ -1,0 +1,12 @@
+[console_scripts]
+completions = nimbro_api.completions:main
+completions_multiplexer = nimbro_api.completions_multiplexer:main
+embeddings = nimbro_api.embeddings:main
+images = nimbro_api.images:main
+speech = nimbro_api.speech:main
+toy_example_1 = nimbro_api.examples.toy_example_1:main
+toy_example_2 = nimbro_api.examples.toy_example_2:main
+toy_example_3 = nimbro_api.examples.toy_example_3:main
+toy_example_4 = nimbro_api.examples.toy_example_4:main
+usage_monitor = nimbro_api.usage_monitor:main
+

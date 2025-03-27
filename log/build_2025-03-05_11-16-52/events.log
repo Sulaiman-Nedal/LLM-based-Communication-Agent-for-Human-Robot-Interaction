@@ -1,0 +1,782 @@
+[0.000000] (-) TimerEvent: {}
+[0.000595] (nimbro_api) JobQueued: {'identifier': 'nimbro_api', 'dependencies': OrderedDict()}
+[0.000732] (nimbro_api_interfaces) JobQueued: {'identifier': 'nimbro_api_interfaces', 'dependencies': OrderedDict()}
+[0.000783] (nimbro_api) JobStarted: {'identifier': 'nimbro_api'}
+[0.008313] (nimbro_api_interfaces) JobStarted: {'identifier': 'nimbro_api_interfaces'}
+[0.099892] (-) TimerEvent: {}
+[0.200295] (-) TimerEvent: {}
+[0.202009] (nimbro_api_interfaces) JobProgress: {'identifier': 'nimbro_api_interfaces', 'progress': 'cmake'}
+[0.202577] (nimbro_api_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aloradis0/workspace/src/nimbro_api_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/aloradis0/workspace/install/nimbro_api_interfaces'], 'cwd': '/home/user/aloradis0/workspace/build/nimbro_api_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aloradis0'), ('SSH_CLIENT', '131.220.4.40 37104 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user/aloradis0'), ('OLDPWD', '/home/user/aloradis0/workspace/src'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/23146/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aloradis0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '140'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/23146'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_23146'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/user/aloradis0/workspace/build/nimbro_api_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '131.220.4.40 37104 131.220.7.64 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.279707] (nimbro_api_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300335] (-) TimerEvent: {}
+[0.388789] (nimbro_api_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.395327] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400425] (-) TimerEvent: {}
+[0.451138] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.452562] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500537] (-) TimerEvent: {}
+[0.507873] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.517084] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.517559] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.520472] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.584523] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.585367] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600625] (-) TimerEvent: {}
+[0.649860] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.655795] (nimbro_api) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/user/aloradis0/workspace/build/nimbro_api/build', '--no-deps', 'symlink_data'], 'cwd': '/home/user/aloradis0/workspace/build/nimbro_api', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aloradis0', 'SSH_CLIENT': '131.220.4.40 37104 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/user/aloradis0', 'OLDPWD': '/home/user/aloradis0/workspace/src', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/23146/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aloradis0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '140', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/23146', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_23146', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/user/aloradis0/workspace/build/nimbro_api', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '131.220.4.40 37104 131.220.7.64 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/aloradis0/workspace/build/nimbro_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MANPATH': ':/opt/puppetlabs/puppet/share/man'}, 'shell': False}
+[0.659468] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.659902] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.661660] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.680622] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.680755] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700737] (-) TimerEvent: {}
+[0.800997] (-) TimerEvent: {}
+[0.836189] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.853168] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.854191] (nimbro_api) StdoutLine: {'line': b'running develop\n'}
+[0.875496] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.880507] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901087] (-) TimerEvent: {}
+[0.948505] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.973928] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.985747] (nimbro_api) StdoutLine: {'line': b'running egg_info\n'}
+[0.985842] (nimbro_api) StdoutLine: {'line': b'creating nimbro_api.egg-info\n'}
+[0.985982] (nimbro_api) StdoutLine: {'line': b'writing nimbro_api.egg-info/PKG-INFO\n'}
+[0.986128] (nimbro_api) StdoutLine: {'line': b'writing dependency_links to nimbro_api.egg-info/dependency_links.txt\n'}
+[0.986268] (nimbro_api) StdoutLine: {'line': b'writing entry points to nimbro_api.egg-info/entry_points.txt\n'}
+[0.986416] (nimbro_api) StdoutLine: {'line': b'writing requirements to nimbro_api.egg-info/requires.txt\n'}
+[0.986498] (nimbro_api) StdoutLine: {'line': b'writing top-level names to nimbro_api.egg-info/top_level.txt\n'}
+[0.988247] (nimbro_api) StdoutLine: {'line': b"writing manifest file 'nimbro_api.egg-info/SOURCES.txt'\n"}
+[1.001187] (-) TimerEvent: {}
+[1.012551] (nimbro_api) StdoutLine: {'line': b"reading manifest file 'nimbro_api.egg-info/SOURCES.txt'\n"}
+[1.013094] (nimbro_api) StdoutLine: {'line': b"writing manifest file 'nimbro_api.egg-info/SOURCES.txt'\n"}
+[1.038699] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.040288] (nimbro_api) StdoutLine: {'line': b'running build_ext\n'}
+[1.040661] (nimbro_api) StdoutLine: {'line': b'Creating /home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages/site.py\n'}
+[1.042159] (nimbro_api) StdoutLine: {'line': b'Creating /home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages/nimbro-api.egg-link (link to .)\n'}
+[1.042750] (nimbro_api) StdoutLine: {'line': b'Installing completions script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.042913] (nimbro_api) StdoutLine: {'line': b'Installing completions_multiplexer script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043132] (nimbro_api) StdoutLine: {'line': b'Installing embeddings script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043222] (nimbro_api) StdoutLine: {'line': b'Installing images script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043304] (nimbro_api) StdoutLine: {'line': b'Installing speech script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043378] (nimbro_api) StdoutLine: {'line': b'Installing toy_example_1 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043454] (nimbro_api) StdoutLine: {'line': b'Installing toy_example_2 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043508] (nimbro_api) StdoutLine: {'line': b'Installing toy_example_3 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043589] (nimbro_api) StdoutLine: {'line': b'Installing toy_example_4 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043655] (nimbro_api) StdoutLine: {'line': b'Installing usage_monitor script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api\n'}
+[1.043731] (nimbro_api) StdoutLine: {'line': b'\n'}
+[1.043796] (nimbro_api) StdoutLine: {'line': b'Installed /home/user/aloradis0/workspace/build/nimbro_api\n'}
+[1.043849] (nimbro_api) StdoutLine: {'line': b'running symlink_data\n'}
+[1.043921] (nimbro_api) StdoutLine: {'line': b'creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index\n'}
+[1.043987] (nimbro_api) StdoutLine: {'line': b'creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index\n'}
+[1.044051] (nimbro_api) StdoutLine: {'line': b'creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index/packages\n'}
+[1.044150] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/resource/nimbro_api -> /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index/packages\n'}
+[1.044228] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/package.xml -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api\n'}
+[1.044297] (nimbro_api) StdoutLine: {'line': b'creating /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.044363] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/images_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.044417] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/gpt_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.044469] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/embeddings_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.044521] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/vllm_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.044574] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/speech_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.044638] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.044692] (nimbro_api) StdoutLine: {'line': b'symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/mistral_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch\n'}
+[1.063400] (nimbro_api) CommandEnded: {'returncode': 0}
+[1.072710] (nimbro_api) JobEnded: {'identifier': 'nimbro_api', 'rc': 0}
+[1.083720] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.101283] (-) TimerEvent: {}
+[1.179961] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.201381] (-) TimerEvent: {}
+[1.206927] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.301491] (-) TimerEvent: {}
+[1.401753] (-) TimerEvent: {}
+[1.454052] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.501860] (-) TimerEvent: {}
+[1.602087] (-) TimerEvent: {}
+[1.702342] (-) TimerEvent: {}
+[1.707472] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802437] (-) TimerEvent: {}
+[1.837551] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.857623] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.858598] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.881511] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.881801] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.881889] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.881986] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.897730] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.902548] (-) TimerEvent: {}
+[1.993967] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.002643] (-) TimerEvent: {}
+[2.080530] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.099641] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/aloradis0/workspace/build/nimbro_api_interfaces\n'}
+[2.102744] (-) TimerEvent: {}
+[2.105236] (nimbro_api_interfaces) CommandEnded: {'returncode': 0}
+[2.105696] (nimbro_api_interfaces) JobProgress: {'identifier': 'nimbro_api_interfaces', 'progress': 'build'}
+[2.107247] (nimbro_api_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/aloradis0/workspace/build/nimbro_api_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/user/aloradis0/workspace/build/nimbro_api_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aloradis0'), ('SSH_CLIENT', '131.220.4.40 37104 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user/aloradis0'), ('OLDPWD', '/home/user/aloradis0/workspace/src'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/23146/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aloradis0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '140'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/23146'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_23146'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/user/aloradis0/workspace/build/nimbro_api_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '131.220.4.40 37104 131.220.7.64 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.144501] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__cpp\x1b[0m\n'}
+[2.144847] (nimbro_api_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.154179] (nimbro_api_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.202859] (-) TimerEvent: {}
+[2.303130] (-) TimerEvent: {}
+[2.403352] (-) TimerEvent: {}
+[2.503581] (-) TimerEvent: {}
+[2.603808] (-) TimerEvent: {}
+[2.704038] (-) TimerEvent: {}
+[2.804278] (-) TimerEvent: {}
+[2.904506] (-) TimerEvent: {}
+[3.004726] (-) TimerEvent: {}
+[3.104944] (-) TimerEvent: {}
+[3.205167] (-) TimerEvent: {}
+[3.305388] (-) TimerEvent: {}
+[3.405611] (-) TimerEvent: {}
+[3.505833] (-) TimerEvent: {}
+[3.606043] (-) TimerEvent: {}
+[3.617994] (nimbro_api_interfaces) StdoutLine: {'line': b'[  1%] Built target nimbro_api_interfaces__cpp\n'}
+[3.627762] (nimbro_api_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.627952] (nimbro_api_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.628049] (nimbro_api_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.706133] (-) TimerEvent: {}
+[3.769501] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.789331] (nimbro_api_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/msg/detail/embedding__functions.c.o\x1b[0m\n'}
+[3.789564] (nimbro_api_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/msg/detail/api_usage__functions.c.o\x1b[0m\n'}
+[3.789677] (nimbro_api_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_tools__functions.c.o\x1b[0m\n'}
+[3.789771] (nimbro_api_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_prompt__functions.c.o\x1b[0m\n'}
+[3.789909] (nimbro_api_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_stop__functions.c.o\x1b[0m\n'}
+[3.790007] (nimbro_api_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_remove_context__functions.c.o\x1b[0m\n'}
+[3.790119] (nimbro_api_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_set_tools__functions.c.o\x1b[0m\n'}
+[3.790679] (nimbro_api_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_context__functions.c.o\x1b[0m\n'}
+[3.790872] (nimbro_api_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_manage__functions.c.o\x1b[0m\n'}
+[3.806222] (-) TimerEvent: {}
+[3.849600] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_status__functions.c.o\x1b[0m\n'}
+[3.849863] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/completions_get_settings__functions.c.o\x1b[0m\n'}
+[3.863741] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/trigger_feedback__functions.c.o\x1b[0m\n'}
+[3.863998] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_usage__functions.c.o\x1b[0m\n'}
+[3.864190] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_image__functions.c.o\x1b[0m\n'}
+[3.864330] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_speech__functions.c.o\x1b[0m\n'}
+[3.864436] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nimbro_api_interfaces/srv/detail/get_embeddings__functions.c.o\x1b[0m\n'}
+[3.906321] (-) TimerEvent: {}
+[3.935868] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libnimbro_api_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.972060] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 14%] Built target nimbro_api_interfaces__rosidl_generator_c\n'}
+[3.981682] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.981861] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.006404] (-) TimerEvent: {}
+[4.106647] (-) TimerEvent: {}
+[4.206925] (-) TimerEvent: {}
+[4.307194] (-) TimerEvent: {}
+[4.407437] (-) TimerEvent: {}
+[4.507679] (-) TimerEvent: {}
+[4.607917] (-) TimerEvent: {}
+[4.708158] (-) TimerEvent: {}
+[4.808408] (-) TimerEvent: {}
+[4.827457] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.845051] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_tools__type_support.cpp.o\x1b[0m\n'}
+[4.846294] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_prompt__type_support.cpp.o\x1b[0m\n'}
+[4.846491] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_stop__type_support.cpp.o\x1b[0m\n'}
+[4.846630] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/msg/embedding__type_support.cpp.o\x1b[0m\n'}
+[4.846727] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/msg/api_usage__type_support.cpp.o\x1b[0m\n'}
+[4.846876] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_set_tools__type_support.cpp.o\x1b[0m\n'}
+[4.847018] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_remove_context__type_support.cpp.o\x1b[0m\n'}
+[4.856149] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_context__type_support.cpp.o\x1b[0m\n'}
+[4.908498] (-) TimerEvent: {}
+[5.008876] (-) TimerEvent: {}
+[5.109257] (-) TimerEvent: {}
+[5.209542] (-) TimerEvent: {}
+[5.214218] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_manage__type_support.cpp.o\x1b[0m\n'}
+[5.218144] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_status__type_support.cpp.o\x1b[0m\n'}
+[5.222626] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/completions_get_settings__type_support.cpp.o\x1b[0m\n'}
+[5.226631] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_embeddings__type_support.cpp.o\x1b[0m\n'}
+[5.233483] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_image__type_support.cpp.o\x1b[0m\n'}
+[5.242784] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_speech__type_support.cpp.o\x1b[0m\n'}
+[5.247905] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/trigger_feedback__type_support.cpp.o\x1b[0m\n'}
+[5.289353] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nimbro_api_interfaces/srv/get_usage__type_support.cpp.o\x1b[0m\n'}
+[5.309630] (-) TimerEvent: {}
+[5.349184] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.379188] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/msg/detail/api_usage__type_support.cpp.o\x1b[0m\n'}
+[5.400850] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.409726] (-) TimerEvent: {}
+[5.425888] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/msg/api_usage__type_support.cpp.o\x1b[0m\n'}
+[5.465317] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/msg/embedding__type_support.cpp.o\x1b[0m\n'}
+[5.504292] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_prompt__type_support.cpp.o\x1b[0m\n'}
+[5.509827] (-) TimerEvent: {}
+[5.545768] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_stop__type_support.cpp.o\x1b[0m\n'}
+[5.586685] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_tools__type_support.cpp.o\x1b[0m\n'}
+[5.599522] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_set_tools__type_support.cpp.o\x1b[0m\n'}
+[5.600115] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_context__type_support.cpp.o\x1b[0m\n'}
+[5.609918] (-) TimerEvent: {}
+[5.616051] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_remove_context__type_support.cpp.o\x1b[0m\n'}
+[5.622177] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_manage__type_support.cpp.o\x1b[0m\n'}
+[5.627271] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_status__type_support.cpp.o\x1b[0m\n'}
+[5.628717] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/completions_get_settings__type_support.cpp.o\x1b[0m\n'}
+[5.630705] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_embeddings__type_support.cpp.o\x1b[0m\n'}
+[5.639676] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_image__type_support.cpp.o\x1b[0m\n'}
+[5.653365] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_speech__type_support.cpp.o\x1b[0m\n'}
+[5.659334] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/trigger_feedback__type_support.cpp.o\x1b[0m\n'}
+[5.660868] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nimbro_api_interfaces/srv/get_usage__type_support.cpp.o\x1b[0m\n'}
+[5.664169] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/msg/detail/embedding__type_support.cpp.o\x1b[0m\n'}
+[5.664764] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.668759] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.cpp.o\x1b[0m\n'}
+[5.669037] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.672077] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_stop__type_support.cpp.o\x1b[0m\n'}
+[5.672336] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.cpp.o\x1b[0m\n'}
+[5.683470] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.cpp.o\x1b[0m\n'}
+[5.696979] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.cpp.o\x1b[0m\n'}
+[5.702067] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.cpp.o\x1b[0m\n'}
+[5.702351] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.710014] (-) TimerEvent: {}
+[5.713376] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/msg/detail/dds_fastrtps/api_usage__type_support.cpp.o\x1b[0m\n'}
+[5.732474] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 45%] Built target nimbro_api_interfaces__rosidl_typesupport_cpp\n'}
+[5.755773] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_manage__type_support.cpp.o\x1b[0m\n'}
+[5.764522] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.cpp.o\x1b[0m\n'}
+[5.772751] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 46%] Built target nimbro_api_interfaces__rosidl_typesupport_c\n'}
+[5.810118] (-) TimerEvent: {}
+[5.836479] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.cpp.o\x1b[0m\n'}
+[5.910219] (-) TimerEvent: {}
+[5.974045] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.004245] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/msg/detail/api_usage__type_support.c.o\x1b[0m\n'}
+[6.010320] (-) TimerEvent: {}
+[6.047225] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/msg/detail/embedding__type_support.c.o\x1b[0m\n'}
+[6.065183] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.cpp.o\x1b[0m\n'}
+[6.087799] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_image__type_support.cpp.o\x1b[0m\n'}
+[6.091396] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.c.o\x1b[0m\n'}
+[6.097629] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_speech__type_support.cpp.o\x1b[0m\n'}
+[6.110420] (-) TimerEvent: {}
+[6.118431] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.cpp.o\x1b[0m\n'}
+[6.130593] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nimbro_api_interfaces/srv/detail/get_usage__type_support.cpp.o\x1b[0m\n'}
+[6.137817] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_stop__type_support.c.o\x1b[0m\n'}
+[6.141132] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/msg/detail/dds_fastrtps/embedding__type_support.cpp.o\x1b[0m\n'}
+[6.153101] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_prompt__type_support.cpp.o\x1b[0m\n'}
+[6.184352] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.c.o\x1b[0m\n'}
+[6.208368] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.c.o\x1b[0m\n'}
+[6.210508] (-) TimerEvent: {}
+[6.226784] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.c.o\x1b[0m\n'}
+[6.232816] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.c.o\x1b[0m\n'}
+[6.256647] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_manage__type_support.c.o\x1b[0m\n'}
+[6.273239] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_stop__type_support.cpp.o\x1b[0m\n'}
+[6.273454] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.c.o\x1b[0m\n'}
+[6.280811] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.c.o\x1b[0m\n'}
+[6.306070] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.c.o\x1b[0m\n'}
+[6.310610] (-) TimerEvent: {}
+[6.322375] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_image__type_support.c.o\x1b[0m\n'}
+[6.329927] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_speech__type_support.c.o\x1b[0m\n'}
+[6.338464] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.c.o\x1b[0m\n'}
+[6.357289] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/get_usage__type_support.c.o\x1b[0m\n'}
+[6.375218] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_tools__type_support.cpp.o\x1b[0m\n'}
+[6.377676] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_set_tools__type_support.cpp.o\x1b[0m\n'}
+[6.392891] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_context__type_support.cpp.o\x1b[0m\n'}
+[6.410437] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libnimbro_api_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.410647] (-) TimerEvent: {}
+[6.461364] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 65%] Built target nimbro_api_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.473975] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_remove_context__type_support.cpp.o\x1b[0m\n'}
+[6.484167] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_manage__type_support.cpp.o\x1b[0m\n'}
+[6.503269] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_status__type_support.cpp.o\x1b[0m\n'}
+[6.506484] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/completions_get_settings__type_support.cpp.o\x1b[0m\n'}
+[6.510453] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_embeddings__type_support.cpp.o\x1b[0m\n'}
+[6.510669] (-) TimerEvent: {}
+[6.608906] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.610768] (-) TimerEvent: {}
+[6.711194] (-) TimerEvent: {}
+[6.743728] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_image__type_support.cpp.o\x1b[0m\n'}
+[6.750702] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 70%] Built target nimbro_api_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.762819] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_speech__type_support.cpp.o\x1b[0m\n'}
+[6.797852] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/trigger_feedback__type_support.cpp.o\x1b[0m\n'}
+[6.811300] (-) TimerEvent: {}
+[6.844266] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nimbro_api_interfaces/srv/detail/dds_fastrtps/get_usage__type_support.cpp.o\x1b[0m\n'}
+[6.911405] (-) TimerEvent: {}
+[7.011850] (-) TimerEvent: {}
+[7.112305] (-) TimerEvent: {}
+[7.212600] (-) TimerEvent: {}
+[7.311778] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.312681] (-) TimerEvent: {}
+[7.402479] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 72%] Built target nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.411574] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.412775] (-) TimerEvent: {}
+[7.512966] (-) TimerEvent: {}
+[7.613207] (-) TimerEvent: {}
+[7.713434] (-) TimerEvent: {}
+[7.813650] (-) TimerEvent: {}
+[7.913850] (-) TimerEvent: {}
+[8.014090] (-) TimerEvent: {}
+[8.114302] (-) TimerEvent: {}
+[8.214509] (-) TimerEvent: {}
+[8.314717] (-) TimerEvent: {}
+[8.414927] (-) TimerEvent: {}
+[8.515138] (-) TimerEvent: {}
+[8.615345] (-) TimerEvent: {}
+[8.710410] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.715417] (-) TimerEvent: {}
+[8.751461] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/msg/detail/api_usage__type_support_c.cpp.o\x1b[0m\n'}
+[8.751732] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_prompt__type_support_c.cpp.o\x1b[0m\n'}
+[8.751865] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/msg/detail/embedding__type_support_c.cpp.o\x1b[0m\n'}
+[8.752043] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support_c.cpp.o\x1b[0m\n'}
+[8.752611] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support_c.cpp.o\x1b[0m\n'}
+[8.752765] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_stop__type_support_c.cpp.o\x1b[0m\n'}
+[8.752937] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_context__type_support_c.cpp.o\x1b[0m\n'}
+[8.753141] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_manage__type_support_c.cpp.o\x1b[0m\n'}
+[8.753286] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_status__type_support_c.cpp.o\x1b[0m\n'}
+[8.753452] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support_c.cpp.o\x1b[0m\n'}
+[8.753573] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support_c.cpp.o\x1b[0m\n'}
+[8.755304] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_embeddings__type_support_c.cpp.o\x1b[0m\n'}
+[8.815521] (-) TimerEvent: {}
+[8.915823] (-) TimerEvent: {}
+[9.017488] (-) TimerEvent: {}
+[9.117798] (-) TimerEvent: {}
+[9.218097] (-) TimerEvent: {}
+[9.231869] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_speech__type_support_c.cpp.o\x1b[0m\n'}
+[9.232174] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_image__type_support_c.cpp.o\x1b[0m\n'}
+[9.242352] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support_c.cpp.o\x1b[0m\n'}
+[9.246837] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nimbro_api_interfaces/srv/detail/get_usage__type_support_c.cpp.o\x1b[0m\n'}
+[9.318215] (-) TimerEvent: {}
+[9.418503] (-) TimerEvent: {}
+[9.518778] (-) TimerEvent: {}
+[9.531103] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libnimbro_api_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.606508] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 84%] Built target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.614214] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces\x1b[0m\n'}
+[9.618869] (-) TimerEvent: {}
+[9.622907] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 84%] Built target nimbro_api_interfaces\n'}
+[9.631120] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__py\x1b[0m\n'}
+[9.640177] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.718978] (-) TimerEvent: {}
+[9.819198] (-) TimerEvent: {}
+[9.919415] (-) TimerEvent: {}
+[10.019683] (-) TimerEvent: {}
+[10.119953] (-) TimerEvent: {}
+[10.220205] (-) TimerEvent: {}
+[10.320441] (-) TimerEvent: {}
+[10.420657] (-) TimerEvent: {}
+[10.520872] (-) TimerEvent: {}
+[10.621089] (-) TimerEvent: {}
+[10.721311] (-) TimerEvent: {}
+[10.821552] (-) TimerEvent: {}
+[10.921783] (-) TimerEvent: {}
+[11.022038] (-) TimerEvent: {}
+[11.122273] (-) TimerEvent: {}
+[11.222511] (-) TimerEvent: {}
+[11.322763] (-) TimerEvent: {}
+[11.423015] (-) TimerEvent: {}
+[11.523251] (-) TimerEvent: {}
+[11.623469] (-) TimerEvent: {}
+[11.723704] (-) TimerEvent: {}
+[11.823929] (-) TimerEvent: {}
+[11.924172] (-) TimerEvent: {}
+[12.024423] (-) TimerEvent: {}
+[12.124710] (-) TimerEvent: {}
+[12.224930] (-) TimerEvent: {}
+[12.325162] (-) TimerEvent: {}
+[12.425394] (-) TimerEvent: {}
+[12.525636] (-) TimerEvent: {}
+[12.545030] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 85%] Built target nimbro_api_interfaces__py\n'}
+[12.553037] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__python\x1b[0m\n'}
+[12.598990] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_prompt_s.c.o\x1b[0m\n'}
+[12.599258] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_stop_s.c.o\x1b[0m\n'}
+[12.599395] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_tools_s.c.o\x1b[0m\n'}
+[12.599575] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/msg/_api_usage_s.c.o\x1b[0m\n'}
+[12.599784] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/msg/_embedding_s.c.o\x1b[0m\n'}
+[12.599894] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_set_tools_s.c.o\x1b[0m\n'}
+[12.600034] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_context_s.c.o\x1b[0m\n'}
+[12.600229] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_remove_context_s.c.o\x1b[0m\n'}
+[12.600424] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_manage_s.c.o\x1b[0m\n'}
+[12.600549] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_status_s.c.o\x1b[0m\n'}
+[12.600673] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_completions_get_settings_s.c.o\x1b[0m\n'}
+[12.602271] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_embeddings_s.c.o\x1b[0m\n'}
+[12.625732] (-) TimerEvent: {}
+[12.726031] (-) TimerEvent: {}
+[12.727294] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_image_s.c.o\x1b[0m\n'}
+[12.730751] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_speech_s.c.o\x1b[0m\n'}
+[12.732656] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_trigger_feedback_s.c.o\x1b[0m\n'}
+[12.733585] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__python.dir/rosidl_generator_py/nimbro_api_interfaces/srv/_get_usage_s.c.o\x1b[0m\n'}
+[12.812519] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nimbro_api_interfaces/libnimbro_api_interfaces__python.so\x1b[0m\n'}
+[12.826125] (-) TimerEvent: {}
+[12.854991] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 96%] Built target nimbro_api_interfaces__python\n'}
+[12.863140] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.863280] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.863338] (nimbro_api_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.881114] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nimbro_api_interfaces/_nimbro_api_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.881711] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nimbro_api_interfaces/_nimbro_api_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.882646] (nimbro_api_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nimbro_api_interfaces/_nimbro_api_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.926259] (-) TimerEvent: {}
+[13.020344] (nimbro_api_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.020491] (nimbro_api_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.023441] (nimbro_api_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.026354] (-) TimerEvent: {}
+[13.057149] (nimbro_api_interfaces) StdoutLine: {'line': b'[100%] Built target nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.057782] (nimbro_api_interfaces) StdoutLine: {'line': b'[100%] Built target nimbro_api_interfaces__rosidl_typesupport_c__pyext\n'}
+[13.084590] (nimbro_api_interfaces) StdoutLine: {'line': b'[100%] Built target nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.094478] (nimbro_api_interfaces) CommandEnded: {'returncode': 0}
+[13.095049] (nimbro_api_interfaces) JobProgress: {'identifier': 'nimbro_api_interfaces', 'progress': 'install'}
+[13.104537] (nimbro_api_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/aloradis0/workspace/build/nimbro_api_interfaces'], 'cwd': '/home/user/aloradis0/workspace/build/nimbro_api_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aloradis0'), ('SSH_CLIENT', '131.220.4.40 37104 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user/aloradis0'), ('OLDPWD', '/home/user/aloradis0/workspace/src'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('LC_CTYPE', 'UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/23146/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aloradis0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '140'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/23146'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_23146'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/user/aloradis0/workspace/build/nimbro_api_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '131.220.4.40 37104 131.220.7.64 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/puppetlabs/puppet/share/man'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.111140] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.111784] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.112099] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/rosidl_interfaces/nimbro_api_interfaces\n'}
+[13.120301] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/api_usage.h\n'}
+[13.126453] (-) TimerEvent: {}
+[13.127140] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__functions.h\n'}
+[13.134057] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__struct.h\n'}
+[13.140981] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__type_support.h\n'}
+[13.147728] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__functions.h\n'}
+[13.154615] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__struct.h\n'}
+[13.161338] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__type_support.h\n'}
+[13.168001] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/embedding.h\n'}
+[13.174745] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.181567] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_context.h\n'}
+[13.188267] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_settings.h\n'}
+[13.194894] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_status.h\n'}
+[13.201618] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_tools.h\n'}
+[13.208360] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_manage.h\n'}
+[13.214967] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_prompt.h\n'}
+[13.221674] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_remove_context.h\n'}
+[13.226549] (-) TimerEvent: {}
+[13.228371] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_set_tools.h\n'}
+[13.235184] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_stop.h\n'}
+[13.241988] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__functions.h\n'}
+[13.248672] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__struct.h\n'}
+[13.255264] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.h\n'}
+[13.262021] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__functions.h\n'}
+[13.268649] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__struct.h\n'}
+[13.275302] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.h\n'}
+[13.282036] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__functions.h\n'}
+[13.288726] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__struct.h\n'}
+[13.295349] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.h\n'}
+[13.302061] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__functions.h\n'}
+[13.308832] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__struct.h\n'}
+[13.315405] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.h\n'}
+[13.322166] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__functions.h\n'}
+[13.326644] (-) TimerEvent: {}
+[13.328794] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__struct.h\n'}
+[13.335449] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__type_support.h\n'}
+[13.342126] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__functions.h\n'}
+[13.348762] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__struct.h\n'}
+[13.355486] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.h\n'}
+[13.362191] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__functions.h\n'}
+[13.368849] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__struct.h\n'}
+[13.375434] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.h\n'}
+[13.382062] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__functions.h\n'}
+[13.388820] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__struct.h\n'}
+[13.395399] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.h\n'}
+[13.402119] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__functions.h\n'}
+[13.408824] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__struct.h\n'}
+[13.415431] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__type_support.h\n'}
+[13.422171] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__functions.h\n'}
+[13.426738] (-) TimerEvent: {}
+[13.428962] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__struct.h\n'}
+[13.435539] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.h\n'}
+[13.442217] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__functions.h\n'}
+[13.448871] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__struct.h\n'}
+[13.455423] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__type_support.h\n'}
+[13.462186] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__functions.h\n'}
+[13.468849] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__struct.h\n'}
+[13.475514] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__type_support.h\n'}
+[13.482217] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__functions.h\n'}
+[13.488845] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__struct.h\n'}
+[13.495423] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__type_support.h\n'}
+[13.502213] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__functions.h\n'}
+[13.508864] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__struct.h\n'}
+[13.515477] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.h\n'}
+[13.522181] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_embeddings.h\n'}
+[13.526834] (-) TimerEvent: {}
+[13.528842] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_image.h\n'}
+[13.535481] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_speech.h\n'}
+[13.542215] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_usage.h\n'}
+[13.548875] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/trigger_feedback.h\n'}
+[13.555671] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/library_path.sh\n'}
+[13.562508] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/library_path.dsv\n'}
+[13.570144] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_fastrtps_c.h\n'}
+[13.576910] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_fastrtps_c.h\n'}
+[13.583543] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.590177] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_fastrtps_c.h\n'}
+[13.596876] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_fastrtps_c.h\n'}
+[13.603403] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_fastrtps_c.h\n'}
+[13.610229] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_fastrtps_c.h\n'}
+[13.616795] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_fastrtps_c.h\n'}
+[13.623439] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_fastrtps_c.h\n'}
+[13.626928] (-) TimerEvent: {}
+[13.630063] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_fastrtps_c.h\n'}
+[13.636759] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_fastrtps_c.h\n'}
+[13.643436] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[13.650092] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_fastrtps_c.h\n'}
+[13.656737] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_fastrtps_c.h\n'}
+[13.663325] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_fastrtps_c.h\n'}
+[13.670053] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_fastrtps_c.h\n'}
+[13.676866] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_fastrtps_c.h\n'}
+[13.683716] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.691204] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.697970] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.704602] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.711257] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.718007] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.724667] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.727023] (-) TimerEvent: {}
+[13.731350] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.738159] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.744935] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.751571] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.758282] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.764965] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.771567] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.778327] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.784909] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.791506] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.798187] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.805137] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.812183] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_introspection_c.h\n'}
+[13.818758] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_introspection_c.h\n'}
+[13.825485] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.827118] (-) TimerEvent: {}
+[13.832033] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_introspection_c.h\n'}
+[13.838699] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_introspection_c.h\n'}
+[13.845380] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_introspection_c.h\n'}
+[13.851975] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_introspection_c.h\n'}
+[13.858624] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_introspection_c.h\n'}
+[13.865315] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_introspection_c.h\n'}
+[13.871921] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_introspection_c.h\n'}
+[13.878577] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_introspection_c.h\n'}
+[13.885298] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_introspection_c.h\n'}
+[13.891869] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_introspection_c.h\n'}
+[13.898710] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_introspection_c.h\n'}
+[13.905569] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_introspection_c.h\n'}
+[13.912197] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_introspection_c.h\n'}
+[13.927317] (-) TimerEvent: {}
+[13.940112] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_introspection_c.h\n'}
+[13.950927] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/api_usage.hpp\n'}
+[13.959454] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__builder.hpp\n'}
+[13.966453] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__struct.hpp\n'}
+[13.973590] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__traits.hpp\n'}
+[13.980663] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__type_support.hpp\n'}
+[13.987680] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__builder.hpp\n'}
+[13.994618] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__struct.hpp\n'}
+[14.001640] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__traits.hpp\n'}
+[14.008599] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__type_support.hpp\n'}
+[14.015530] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/embedding.hpp\n'}
+[14.022538] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.027414] (-) TimerEvent: {}
+[14.029554] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_context.hpp\n'}
+[14.036637] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_settings.hpp\n'}
+[14.043668] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_status.hpp\n'}
+[14.050651] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_get_tools.hpp\n'}
+[14.057622] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_manage.hpp\n'}
+[14.064542] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_prompt.hpp\n'}
+[14.071502] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_remove_context.hpp\n'}
+[14.078513] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_set_tools.hpp\n'}
+[14.085462] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/completions_stop.hpp\n'}
+[14.092391] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__builder.hpp\n'}
+[14.099259] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__struct.hpp\n'}
+[14.106327] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__traits.hpp\n'}
+[14.113256] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__type_support.hpp\n'}
+[14.120175] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__builder.hpp\n'}
+[14.127099] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__struct.hpp\n'}
+[14.127501] (-) TimerEvent: {}
+[14.134101] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__traits.hpp\n'}
+[14.141061] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__type_support.hpp\n'}
+[14.148069] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__builder.hpp\n'}
+[14.155019] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__struct.hpp\n'}
+[14.162039] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__traits.hpp\n'}
+[14.168953] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__type_support.hpp\n'}
+[14.175942] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__builder.hpp\n'}
+[14.182882] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__struct.hpp\n'}
+[14.189923] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__traits.hpp\n'}
+[14.196884] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__type_support.hpp\n'}
+[14.203920] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__builder.hpp\n'}
+[14.210924] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__struct.hpp\n'}
+[14.217943] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__traits.hpp\n'}
+[14.225039] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__type_support.hpp\n'}
+[14.227598] (-) TimerEvent: {}
+[14.232032] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__builder.hpp\n'}
+[14.239485] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__struct.hpp\n'}
+[14.246950] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__traits.hpp\n'}
+[14.254501] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__type_support.hpp\n'}
+[14.262635] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__builder.hpp\n'}
+[14.270753] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__struct.hpp\n'}
+[14.278749] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__traits.hpp\n'}
+[14.286856] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__type_support.hpp\n'}
+[14.294929] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__builder.hpp\n'}
+[14.303008] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__struct.hpp\n'}
+[14.311144] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__traits.hpp\n'}
+[14.319232] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__type_support.hpp\n'}
+[14.327265] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__builder.hpp\n'}
+[14.327691] (-) TimerEvent: {}
+[14.335412] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__struct.hpp\n'}
+[14.343467] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__traits.hpp\n'}
+[14.351511] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__type_support.hpp\n'}
+[14.359625] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__builder.hpp\n'}
+[14.367684] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__struct.hpp\n'}
+[14.375706] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__traits.hpp\n'}
+[14.383773] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__type_support.hpp\n'}
+[14.391838] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__builder.hpp\n'}
+[14.399914] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__struct.hpp\n'}
+[14.407908] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__traits.hpp\n'}
+[14.415923] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__type_support.hpp\n'}
+[14.423956] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__builder.hpp\n'}
+[14.427793] (-) TimerEvent: {}
+[14.432028] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__struct.hpp\n'}
+[14.440175] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__traits.hpp\n'}
+[14.448272] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__type_support.hpp\n'}
+[14.456338] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__builder.hpp\n'}
+[14.464498] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__struct.hpp\n'}
+[14.473213] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__traits.hpp\n'}
+[14.481912] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__type_support.hpp\n'}
+[14.490729] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__builder.hpp\n'}
+[14.499535] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__struct.hpp\n'}
+[14.508529] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__traits.hpp\n'}
+[14.517340] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__type_support.hpp\n'}
+[14.526035] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_embeddings.hpp\n'}
+[14.527891] (-) TimerEvent: {}
+[14.534788] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_image.hpp\n'}
+[14.543504] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_speech.hpp\n'}
+[14.552339] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/get_usage.hpp\n'}
+[14.561201] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/trigger_feedback.hpp\n'}
+[14.570660] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/api_usage__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.579476] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/msg/detail/embedding__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.588234] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_context__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.597065] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_settings__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.605828] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.616463] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_get_tools__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.627993] (-) TimerEvent: {}
+[14.629705] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_manage__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.643590] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.657230] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_remove_context__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.670964] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_set_tools__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.684814] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/completions_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.697836] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_embeddings__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.709401] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.720931] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_speech__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.728100] (-) TimerEvent: {}
+[14.732388] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/get_usage__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.743896] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/include/nimbro_api_interfaces/srv/detail/trigger_feedback__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.755719] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/pythonpath.sh\n'}
+[14.767390] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/pythonpath.dsv\n'}
+[14.776537] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/__init__.py\n'}
+[14.783452] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/msg/__init__.py\n'}
+[14.790086] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/msg/_api_usage.py\n'}
+[14.796753] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/msg/_embedding.py\n'}
+[14.803813] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/__init__.py\n'}
+[14.810626] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_context.py\n'}
+[14.817328] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_settings.py\n'}
+[14.823950] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_status.py\n'}
+[14.828177] (-) TimerEvent: {}
+[14.830536] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_get_tools.py\n'}
+[14.837238] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_manage.py\n'}
+[14.843757] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_prompt.py\n'}
+[14.850419] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_remove_context.py\n'}
+[14.856991] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_set_tools.py\n'}
+[14.863597] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_completions_stop.py\n'}
+[14.870317] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_embeddings.py\n'}
+[14.876949] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_image.py\n'}
+[14.883487] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_speech.py\n'}
+[14.890182] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_get_usage.py\n'}
+[14.896742] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/srv/_trigger_feedback.py\n'}
+[14.903589] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.910456] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.917332] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/nimbro_api_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.924141] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__python.so\n'}
+[14.928244] (-) TimerEvent: {}
+[14.930926] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/ApiUsage.idl\n'}
+[14.937811] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/Embedding.idl\n'}
+[14.944564] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt.idl\n'}
+[14.951166] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop.idl\n'}
+[14.957933] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools.idl\n'}
+[14.964603] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools.idl\n'}
+[14.971189] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext.idl\n'}
+[14.977974] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext.idl\n'}
+[14.984694] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage.idl\n'}
+[14.991530] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus.idl\n'}
+[14.998469] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings.idl\n'}
+[15.005359] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings.idl\n'}
+[15.012211] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage.idl\n'}
+[15.019005] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech.idl\n'}
+[15.025736] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback.idl\n'}
+[15.028310] (-) TimerEvent: {}
+[15.032618] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage.idl\n'}
+[15.039315] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/ApiUsage.msg\n'}
+[15.046081] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/msg/Embedding.msg\n'}
+[15.052831] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt.srv\n'}
+[15.059713] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt_Request.msg\n'}
+[15.066572] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsPrompt_Response.msg\n'}
+[15.073339] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop.srv\n'}
+[15.080042] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop_Request.msg\n'}
+[15.086999] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsStop_Response.msg\n'}
+[15.093838] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools.srv\n'}
+[15.100736] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools_Request.msg\n'}
+[15.107437] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetTools_Response.msg\n'}
+[15.114199] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools.srv\n'}
+[15.121050] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools_Request.msg\n'}
+[15.127719] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsSetTools_Response.msg\n'}
+[15.128402] (-) TimerEvent: {}
+[15.134632] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext.srv\n'}
+[15.141404] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext_Request.msg\n'}
+[15.148182] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetContext_Response.msg\n'}
+[15.154975] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext.srv\n'}
+[15.161710] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext_Request.msg\n'}
+[15.168491] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsRemoveContext_Response.msg\n'}
+[15.175274] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage.srv\n'}
+[15.182015] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage_Request.msg\n'}
+[15.188906] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsManage_Response.msg\n'}
+[15.195594] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus.srv\n'}
+[15.202362] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus_Request.msg\n'}
+[15.209188] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetStatus_Response.msg\n'}
+[15.215846] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings.srv\n'}
+[15.222590] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings_Request.msg\n'}
+[15.228469] (-) TimerEvent: {}
+[15.229388] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/CompletionsGetSettings_Response.msg\n'}
+[15.236221] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings.srv\n'}
+[15.242952] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings_Request.msg\n'}
+[15.249693] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetEmbeddings_Response.msg\n'}
+[15.256472] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage.srv\n'}
+[15.263148] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage_Request.msg\n'}
+[15.270045] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetImage_Response.msg\n'}
+[15.276779] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech.srv\n'}
+[15.283551] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech_Request.msg\n'}
+[15.290314] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetSpeech_Response.msg\n'}
+[15.297053] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback.srv\n'}
+[15.303755] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback_Request.msg\n'}
+[15.310541] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/TriggerFeedback_Response.msg\n'}
+[15.317364] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage.srv\n'}
+[15.324021] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage_Request.msg\n'}
+[15.328564] (-) TimerEvent: {}
+[15.330786] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/srv/GetUsage_Response.msg\n'}
+[15.337747] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/package_run_dependencies/nimbro_api_interfaces\n'}
+[15.344580] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/parent_prefix_path/nimbro_api_interfaces\n'}
+[15.351171] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/ament_prefix_path.sh\n'}
+[15.357970] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/ament_prefix_path.dsv\n'}
+[15.364741] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/path.sh\n'}
+[15.371465] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/environment/path.dsv\n'}
+[15.378287] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.bash\n'}
+[15.385033] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.sh\n'}
+[15.391716] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.zsh\n'}
+[15.398546] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/local_setup.dsv\n'}
+[15.405340] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/package.dsv\n'}
+[15.412081] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/ament_index/resource_index/packages/nimbro_api_interfaces\n'}
+[15.418915] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[15.425660] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.428662] (-) TimerEvent: {}
+[15.432592] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.439348] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.446243] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.453032] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.459770] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.466502] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfacesConfig.cmake\n'}
+[15.473215] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfacesConfig-version.cmake\n'}
+[15.479866] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/package.xml\n'}
+[15.486608] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_generator_c.so\n'}
+[15.487166] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_generator_c.so" to ""\n'}
+[15.487349] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[15.487785] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.487969] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_c.so\n'}
+[15.488389] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[15.488572] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[15.489244] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.489425] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_cpp.so\n'}
+[15.489762] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/libnimbro_api_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[15.528872] (-) TimerEvent: {}
+[15.529527] (nimbro_api_interfaces) StdoutLine: {'line': b"Compiling '/home/user/aloradis0/workspace/install/nimbro_api_interfaces/lib/python3.8/site-packages/nimbro_api_interfaces/__init__.py'...\n"}
+[15.532218] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_generator_cExport.cmake\n'}
+[15.532431] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.532608] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.532816] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.532986] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[15.533155] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.533323] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_generator_cppExport.cmake\n'}
+[15.533437] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.533564] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.533719] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[15.533890] (nimbro_api_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/aloradis0/workspace/install/nimbro_api_interfaces/share/nimbro_api_interfaces/cmake/nimbro_api_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.536464] (nimbro_api_interfaces) CommandEnded: {'returncode': 0}
+[15.553454] (nimbro_api_interfaces) JobEnded: {'identifier': 'nimbro_api_interfaces', 'rc': 0}
+[15.554196] (-) EventReactorShutdown: {}

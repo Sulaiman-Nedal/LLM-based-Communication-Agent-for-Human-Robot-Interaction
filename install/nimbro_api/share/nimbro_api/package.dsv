@@ -1,0 +1,9 @@
+source;share/nimbro_api/hook/pythonpath.ps1
+source;share/nimbro_api/hook/pythonpath.dsv
+source;share/nimbro_api/hook/pythonpath.sh
+source;share/nimbro_api/hook/ament_prefix_path.ps1
+source;share/nimbro_api/hook/ament_prefix_path.dsv
+source;share/nimbro_api/hook/ament_prefix_path.sh
+source;../../build/nimbro_api/share/nimbro_api/hook/pythonpath_develop.ps1
+source;../../build/nimbro_api/share/nimbro_api/hook/pythonpath_develop.dsv
+source;../../build/nimbro_api/share/nimbro_api/hook/pythonpath_develop.sh

@@ -1,0 +1,16 @@
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:msg/ApiUsage.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:msg/Embedding.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsPrompt.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsStop.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsGetTools.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsSetTools.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsGetContext.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsRemoveContext.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsManage.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsGetStatus.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/CompletionsGetSettings.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/GetEmbeddings.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/GetImage.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/GetSpeech.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/TriggerFeedback.idl
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_adapter/nimbro_api_interfaces:srv/GetUsage.idl

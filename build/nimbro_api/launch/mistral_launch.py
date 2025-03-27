@@ -1,0 +1,1 @@
+/home/user/aloradis0/workspace/src/nimbro_api/launch/mistral_launch.py

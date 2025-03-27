@@ -1,0 +1,1 @@
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/rosidl_typesupport_introspection_c/nimbro_api_interfaces/srv/detail/completions_prompt__rosidl_typesupport_introspection_c.h

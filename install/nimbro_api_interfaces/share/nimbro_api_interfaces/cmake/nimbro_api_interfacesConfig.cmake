@@ -1,0 +1,1 @@
+/home/user/aloradis0/workspace/build/nimbro_api_interfaces/ament_cmake_core/nimbro_api_interfacesConfig.cmake

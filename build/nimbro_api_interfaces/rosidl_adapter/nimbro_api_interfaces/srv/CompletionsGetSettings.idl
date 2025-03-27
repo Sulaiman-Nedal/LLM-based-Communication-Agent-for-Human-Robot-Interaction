@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/CompletionsGetSettings.srv
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module srv {
+    struct CompletionsGetSettings_Request {
+      @verbatim (language="comment", text=
+        " Specifies the target completions node when addressing the completions_multiplexer")
+      string completions_id;
+    };
+    struct CompletionsGetSettings_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+
+      @verbatim (language="comment", text=
+        " A list of all parameter names of the target completions node")
+      sequence<string> parameter_names;
+
+      @verbatim (language="comment", text=
+        " A corresponding list of all parameter types of the target completions node")
+      sequence<uint8> parameter_types;
+
+      @verbatim (language="comment", text=
+        " A corresponding list of all parameter values of the target completions node")
+      sequence<string> parameter_values;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nimbro_api_interfaces/msg/ApiUsage.msg
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module msg {
+    struct ApiUsage {
+      string api_type;
+
+      string api_flavor;
+
+      string model_name;
+
+      uint64 input_tokens_uncached;
+
+      uint64 input_tokens_cached;
+
+      uint64 output_tokens;
+    };
+  };
+};

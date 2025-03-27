@@ -1,0 +1,21 @@
+{
+  "package_name": "nimbro_api_interfaces",
+  "non_idl_tuples": [
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:msg/ApiUsage.msg",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:msg/Embedding.msg",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsPrompt.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsStop.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsGetTools.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsSetTools.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsGetContext.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsRemoveContext.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsManage.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsGetStatus.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/CompletionsGetSettings.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/GetEmbeddings.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/GetImage.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/GetSpeech.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/TriggerFeedback.srv",
+    "/home/user/aloradis0/workspace/src/nimbro_api_interfaces:srv/GetUsage.srv"
+  ]
+}

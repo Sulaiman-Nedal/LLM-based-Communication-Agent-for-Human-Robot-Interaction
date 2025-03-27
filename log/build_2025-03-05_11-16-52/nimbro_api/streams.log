@@ -1,0 +1,42 @@
+[0.657s] Invoking command in '/home/user/aloradis0/workspace/build/nimbro_api': PYTHONPATH=/home/user/aloradis0/workspace/build/nimbro_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/aloradis0/workspace/build/nimbro_api/build --no-deps symlink_data
+[0.853s] running develop
+[0.985s] running egg_info
+[0.985s] creating nimbro_api.egg-info
+[0.985s] writing nimbro_api.egg-info/PKG-INFO
+[0.985s] writing dependency_links to nimbro_api.egg-info/dependency_links.txt
+[0.985s] writing entry points to nimbro_api.egg-info/entry_points.txt
+[0.986s] writing requirements to nimbro_api.egg-info/requires.txt
+[0.986s] writing top-level names to nimbro_api.egg-info/top_level.txt
+[0.987s] writing manifest file 'nimbro_api.egg-info/SOURCES.txt'
+[1.012s] reading manifest file 'nimbro_api.egg-info/SOURCES.txt'
+[1.012s] writing manifest file 'nimbro_api.egg-info/SOURCES.txt'
+[1.040s] running build_ext
+[1.040s] Creating /home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages/site.py
+[1.041s] Creating /home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages/nimbro-api.egg-link (link to .)
+[1.042s] Installing completions script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.042s] Installing completions_multiplexer script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.042s] Installing embeddings script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.042s] Installing images script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.043s] Installing speech script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.043s] Installing toy_example_1 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.043s] Installing toy_example_2 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.043s] Installing toy_example_3 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.043s] Installing toy_example_4 script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.043s] Installing usage_monitor script to /home/user/aloradis0/workspace/install/nimbro_api/lib/nimbro_api
+[1.043s] 
+[1.043s] Installed /home/user/aloradis0/workspace/build/nimbro_api
+[1.043s] running symlink_data
+[1.043s] creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index
+[1.043s] creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index
+[1.043s] creating /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index/packages
+[1.043s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/resource/nimbro_api -> /home/user/aloradis0/workspace/install/nimbro_api/share/ament_index/resource_index/packages
+[1.043s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/package.xml -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api
+[1.043s] creating /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.044s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/images_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.044s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/gpt_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.044s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/embeddings_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.044s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/vllm_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.044s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/speech_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.044s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.044s] symbolically linking /home/user/aloradis0/workspace/build/nimbro_api/launch/mistral_launch.py -> /home/user/aloradis0/workspace/install/nimbro_api/share/nimbro_api/launch
+[1.063s] Invoked command in '/home/user/aloradis0/workspace/build/nimbro_api' returned '0': PYTHONPATH=/home/user/aloradis0/workspace/build/nimbro_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/aloradis0/workspace/install/nimbro_api/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/aloradis0/workspace/build/nimbro_api/build --no-deps symlink_data

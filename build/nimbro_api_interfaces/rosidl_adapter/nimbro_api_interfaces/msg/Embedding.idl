@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nimbro_api_interfaces/msg/Embedding.msg
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module msg {
+    struct Embedding {
+      sequence<float> embedding;
+    };
+  };
+};

@@ -1,0 +1,24 @@
+{
+  "files": [
+    [
+      "cache_embeddings_0.json",
+      3
+    ]
+  ],
+  "texts": {
+    "text-embedding-3-large": {
+      "cat": [
+        0,
+        0
+      ],
+      "dog": [
+        0,
+        1
+      ],
+      "helicopter": [
+        0,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/CompletionsPrompt.srv
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module srv {
+    struct CompletionsPrompt_Request {
+      @verbatim (language="comment", text=
+        " Specifies the target completions node when addressing the completions_multiplexer")
+      string completions_id;
+
+      @verbatim (language="comment", text=
+        " The role of the added message; Must be in list ['system','user','assistant','tool','json']")
+      string role;
+
+      @verbatim (language="comment", text=
+        " The text content of the message added; For multi-modal messages (images, tool calls, etc.) use 'json' role according to the documentation (ignoring role and tool_response_id fields)")
+      string text;
+
+      @verbatim (language="comment", text=
+        " Clears the context of the completions node so that the added message will be its first element")
+      boolean reset_context;
+
+      @verbatim (language="comment", text=
+        " If not empty, this indicates that the text is a response to a tool call with that ID")
+      string tool_response_id;
+
+      @verbatim (language="comment", text=
+        " Must be 'none' (no response, just add to context), 'text' (response must be text), 'tool name' (response must call specified tool), 'auto' (whatever), or 'always' (response must contain at least one tool call)")
+      string response_type;
+    };
+    struct CompletionsPrompt_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+
+      @verbatim (language="comment", text=
+        " The text response of the completion")
+      string text;
+
+      @verbatim (language="comment", text=
+        " The tool response of the completion as a list of JSON objects {\"id\":\"\", \"name\":\"\", \"arguments\":\"[{\"arg_1\":\"\", ...}, ...]\"}")
+      sequence<string> tool_calls;
+    };
+  };
+};

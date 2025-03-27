@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/CompletionsManage.srv
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module srv {
+    struct CompletionsManage_Request {
+      @verbatim (language="comment", text=
+        " Specifies the targeted completions node for actions 'release' and 'configure'")
+      string completions_id;
+
+      @verbatim (language="comment", text=
+        " The type of action; Must be in list ['acquire', 'release', 'configure']")
+      string action;
+
+      @verbatim (language="comment", text=
+        " The names of the parameters to be edited; This is applied with any action")
+      sequence<string> parameter_names;
+
+      @verbatim (language="comment", text=
+        " The parameter values corresponding to parameter_names")
+      sequence<string> parameter_values;
+    };
+    struct CompletionsManage_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+
+      @verbatim (language="comment", text=
+        " Specifies the newly acquired (or targeted) completions node")
+      string completions_id;
+    };
+  };
+};

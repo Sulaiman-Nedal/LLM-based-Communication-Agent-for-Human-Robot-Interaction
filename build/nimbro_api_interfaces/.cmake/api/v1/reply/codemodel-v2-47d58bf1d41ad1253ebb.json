@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "nimbro_api_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/aloradis0/workspace/build/nimbro_api_interfaces/nimbro_api_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nimbro_api_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces-f1f97d6813a9545bddab.json",
+					"name" : "nimbro_api_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__cpp-db50d6af8999c7d667a7.json",
+					"name" : "nimbro_api_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nimbro_api_interfaces__py::@91ec3383d542448bce3c",
+					"jsonFile" : "target-nimbro_api_interfaces__py-442327b144bf2caf5f1d.json",
+					"name" : "nimbro_api_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__python-8d7dccd45cd20a36142c.json",
+					"name" : "nimbro_api_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_generator_c-323d1425e9f682df673a.json",
+					"name" : "nimbro_api_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_c-be6e707e680395408dcd.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_c__pyext-4a288928cec544f02e09.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_cpp-ae5cc1eed8a344039bb5.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_fastrtps_c-b0d9916789b23f0a6c6e.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext-2834acbda7a54077f7fd.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp-97533406e7dfd81db471.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_introspection_c-e38ed66bfaba1e518838.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext-4f368d52a59dc561fd02.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces__rosidl_typesupport_introspection_cpp-83a926ddee348a6b3c04.json",
+					"name" : "nimbro_api_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nimbro_api_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nimbro_api_interfaces_uninstall-d445736e151905a86397.json",
+					"name" : "nimbro_api_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7548350e58dacc278622.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/aloradis0/workspace/build/nimbro_api_interfaces",
+		"source" : "/home/user/aloradis0/workspace/src/nimbro_api_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

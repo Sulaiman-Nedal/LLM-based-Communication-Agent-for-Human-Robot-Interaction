@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nimbro_api_interfaces/srv/GetUsage.srv
+// generated code does not contain a copyright notice
+
+
+module nimbro_api_interfaces {
+  module srv {
+    struct GetUsage_Request {
+      @verbatim (language="comment", text=
+        " Specifies the API type for which the usage is being requested; Leave blank to respond with all types")
+      string api_type;
+
+      @verbatim (language="comment", text=
+        " Discard usage before this time (parsed with datetime.fromisoformat); Leave blank to consider everything from the first usage")
+      string stamp_start;
+
+      @verbatim (language="comment", text=
+        " Discard usage after this time (parsed with datetime.fromisoformat); Leave blank to consider everything until the last usage")
+      string stamp_end;
+    };
+    struct GetUsage_Response {
+      @verbatim (language="comment", text=
+        " Indicates the success or failure of the service call")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " A natural language summary of the service call outcome")
+      string message;
+
+      @verbatim (language="comment", text=
+        " A text containing the requested usage encoded as JSON")
+      string usage;
+    };
+  };
+};
