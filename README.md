@@ -36,8 +36,8 @@ This project is designed for **robotic assistants** and **interactive AI systems
 
 
 ## Team members:
-Sulaeman Aloradi: s87salor@uni-bonn.de
-Abdelwahab Elshennaway: 
-Supervised by:
+- Sulaeman Aloradi: s87salor@uni-bonn.de
+- Abdelwahab Elshennaway: 
+- Supervised by Bastian Pätzold: paetzold@ais.uni-bonn.de
 
 
