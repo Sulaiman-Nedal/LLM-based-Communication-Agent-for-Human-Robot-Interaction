@@ -29,13 +29,15 @@ Nimbro Speak is an interactive communication system that enables a robot to enga
 This project is designed for **robotic assistants** and **interactive AI systems** that require reliable human-robot communication. It can be used in applications such as customer service, assistance robots, and guided interactions.
 
 ## Requirements
-- Python 3  
+- Python 3
+- Ros 2
 - Nimbro API  
 - GPT-based AI models (e.g., `gpt-4o-mini`)  
 
 
-Team members:
+## Team members:
 Sulaeman Aloradi: s87salor@uni-bonn.de
-Abdelwahab Elshennaway:
+Abdelwahab Elshennaway: 
+Supervised by:
 
 
